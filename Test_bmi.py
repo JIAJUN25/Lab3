@@ -1,5 +1,5 @@
 import pytest
-import Lab2.bmi as bmi
+import lab2.bmi as bmi
 
 def test_bmi_under_weight():
     result_bmi, classification = bmi.calculate_bmi(1.75, 50)
